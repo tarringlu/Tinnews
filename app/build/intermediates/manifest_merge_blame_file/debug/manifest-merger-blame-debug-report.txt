@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.laioffer.tinnews"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:6:5-23:19
+14        android:name="com.laioffer.tinnews.TinNewsApplication"
+14-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:7:9-43
+15        android:allowBackup="true"
+15-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/zilinlu/.gradle/caches/transforms-3/47206b668c85da27bbd3bdb3fab9cce1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.TinNews" >
+23-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:13:9-45
+24        <activity
+24-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:14:9-22:20
+25            android:name="com.laioffer.tinnews.MainActivity"
+25-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:15:13-41
+26            android:exported="true" >
+26-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:16:13-36
+27            <intent-filter>
+27-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:18:17-69
+28-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:20:17-77
+30-->/Users/zilinlu/demo/AndroidStudioProjects/TinNews/app/src/main/AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->[androidx.room:room-runtime:2.4.0-alpha03] /Users/zilinlu/.gradle/caches/transforms-3/d0d5930678347780194992178bc1d5fc/transformed/room-runtime-2.4.0-alpha03/AndroidManifest.xml:25:9-28:40
+35            android:name="androidx.room.MultiInstanceInvalidationService"
+35-->[androidx.room:room-runtime:2.4.0-alpha03] /Users/zilinlu/.gradle/caches/transforms-3/d0d5930678347780194992178bc1d5fc/transformed/room-runtime-2.4.0-alpha03/AndroidManifest.xml:26:13-74
+36            android:directBootAware="true"
+36-->[androidx.room:room-runtime:2.4.0-alpha03] /Users/zilinlu/.gradle/caches/transforms-3/d0d5930678347780194992178bc1d5fc/transformed/room-runtime-2.4.0-alpha03/AndroidManifest.xml:27:13-43
+37            android:exported="false" />
+37-->[androidx.room:room-runtime:2.4.0-alpha03] /Users/zilinlu/.gradle/caches/transforms-3/d0d5930678347780194992178bc1d5fc/transformed/room-runtime-2.4.0-alpha03/AndroidManifest.xml:28:13-37
+38
+39        <provider
+39-->[com.squareup.picasso:picasso:2.71828] /Users/zilinlu/.gradle/caches/transforms-3/33f7992d21f4d7011fc6b67381304e1f/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+40            android:name="com.squareup.picasso.PicassoProvider"
+40-->[com.squareup.picasso:picasso:2.71828] /Users/zilinlu/.gradle/caches/transforms-3/33f7992d21f4d7011fc6b67381304e1f/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+41            android:authorities="com.laioffer.tinnews.com.squareup.picasso"
+41-->[com.squareup.picasso:picasso:2.71828] /Users/zilinlu/.gradle/caches/transforms-3/33f7992d21f4d7011fc6b67381304e1f/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+42            android:exported="false" />
+42-->[com.squareup.picasso:picasso:2.71828] /Users/zilinlu/.gradle/caches/transforms-3/33f7992d21f4d7011fc6b67381304e1f/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/zilinlu/.gradle/caches/transforms-3/fd5e6ff1012246a687052c16c8ee46ec/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/zilinlu/.gradle/caches/transforms-3/fd5e6ff1012246a687052c16c8ee46ec/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+45            android:authorities="com.laioffer.tinnews.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/zilinlu/.gradle/caches/transforms-3/fd5e6ff1012246a687052c16c8ee46ec/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/zilinlu/.gradle/caches/transforms-3/fd5e6ff1012246a687052c16c8ee46ec/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/zilinlu/.gradle/caches/transforms-3/fd5e6ff1012246a687052c16c8ee46ec/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/zilinlu/.gradle/caches/transforms-3/fd5e6ff1012246a687052c16c8ee46ec/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/zilinlu/.gradle/caches/transforms-3/fd5e6ff1012246a687052c16c8ee46ec/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/zilinlu/.gradle/caches/transforms-3/d2310269f62497c923bf744d493c9fa5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/zilinlu/.gradle/caches/transforms-3/d2310269f62497c923bf744d493c9fa5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/zilinlu/.gradle/caches/transforms-3/d2310269f62497c923bf744d493c9fa5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>
