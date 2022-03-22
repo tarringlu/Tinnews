@@ -8,5 +8,5 @@ Basicly, this is a simulate tinder function but as a simplified version.
 
 **Structure of this project**
 =========================
-![image](https://github.com/tarringlu/Screen Shot 2022-03-22 at 5.34.06 PM.png)
+![image](https://github.com/tarringlu/Tinnews/blob/main/Screen%20Shot%202022-03-22%20at%205.34.06%20PM.png)
 
