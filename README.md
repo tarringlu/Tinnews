@@ -1,10 +1,10 @@
 Tinnews
 =========================
 **-- Tinnews: a Tinder-like News Recommendation App.**
-![](https://github.com/tarringlu/Tinnews/Screen Shot 2022-03-22 at 5.29.37 PM.png)
+![](https://github.com/tarringlu/Tinnews/Screen%20Shot%202022-03-22%20at%205.29.37%20PM.png)
 
 Basicly, this is a simulate tinder function but as a simplified version.  
-![](name-of-giphy.gif)
+![](https://github.com/tarringlu/Tinnews/blob/main/Screen%20Recording%202022-03-22%20at%205.38.54%20PM.gif)
 
 
 
